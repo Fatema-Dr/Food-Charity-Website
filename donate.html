@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Donate- Doctor's Foundation </title>
+        <link rel="icon" href="images/Logo.jpg" type="image/x-icon">
+
+        <!--charcater encoding-->
+        <meta charset="utf-8">
+
+        <!--link to css file-->
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+        <!--link to icon-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <style>
+            .donate{
+                background-image:url(images/donate-img1.jpg);
+                background-position: center;
+                background-size:cover;
+                background-repeat: no-repeat;
+                height:90vh;
+            }
+
+            .donate-container{
+                box-shadow: 0 8px 32px rgba(0,0,0, .37);
+                backdrop-filter: blur(8px);
+                padding-top:2%;
+                /* margin:0% 34%; */
+                /* margin-top:10%; */
+                margin-left:35%;
+                margin-right:35%;
+                border-radius:12px;
+            }
+
+            .donate-options{
+                margin-top:3%;
+                display:grid;
+                grid-template-columns:1fr 1fr;
+                padding:4%;
+                background-color:rgb(236,238,255);
+                border-radius:10px;
+            }
+
+            .donate-options span{
+                cursor:pointer;
+                font-size:18px;
+            }
+
+            .donate-options span:first-child{
+                padding:12% 0 0 8%;
+                background-color:#fff;
+                border-radius:10px;
+            }
+            
+            .donate-options span:last-child{
+                padding: 12% 30% 10% 15%;
+            } 
+
+            .donate-values{
+                width:100%;
+                margin-top:5%;
+                display:grid;
+                grid-template-columns:1fr 1fr 1fr;
+                grid-gap:10px;
+            }
+
+            .value{
+                border:2px solid rgb(236,238,255);
+                border-radius:7px;
+                font-weight:600;
+                padding-left:30%;
+                cursor:pointer;
+            }
+
+            .value:hover{
+                background-color:#3c3c3c;
+                color:#fff;
+            }
+
+            
+            .active{
+                background-color:#16b978;
+                color:#fff;
+            }
+
+            input{
+                margin-top:3%;
+                margin-bottom:3%;
+            }
+
+            .donate-btn{
+                width:200%;
+                font-size:20px;
+                margin:2%;
+                padding: 0% 20% 0% 20%;
+                font-weight:600;
+                color:#16b978;
+                background-color:#fff;
+                border:2px #16b978 solid;
+                border-radius:5px;
+                cursor:pointer;
+            }
+
+            .donate-btn:hover{
+                color:#fff;
+                background-color:#16b978;
+            }
+            .confirm{
+                margin-bottom:3%;
+            }
+        </style>
+        </head>
+
+     <body>  
+        <section class="header"> 
+            <nav> 
+                <div class="logo">
+                 <a href="index.html" class="logo"><img src="images/1logo.JPG" alt="Foundation Logo"></a>
+                </div> 
+            <div class="nav-links"> 
+                
+            <ul> 
+            <li> <a href="index.html"> HOME </a></li>
+            <li> <a href="about_us.html"> ABOUT US </a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#"> Who we are?</a></li>
+                        <li><a href="#"> What we do? </a></li>
+                        <li><a href="#"> Our Mission</a></li>
+                        <li><a href="#"> Our Impact</a></li>
+                    </ul>
+                </div>
+            </li> 
+            <li> <a href="our_campaigns.html" >OUR CAMPAIGNS</a></li> 
+            <li> <a href="get-involved.html"> GET INVOLVED </a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#"> Give Food </a></li>
+                        <li><a href="#"> Volunteer </a></li>
+                        <li><a href="#"> Donate </a></li>
+                        <li><a href="#"> Become partners</a></li>
+                    </ul>
+                </div>
+            </li>  
+            <li> <a href="contact_us.html"> CONTACT US </a></li> 
+            </ul> 
+            </div> 
+        
+            </nav>
+            
+                <a href="donate.html" class="btn" style="position: absolute; top:16%; right:5%; cursor: pointer;">
+                    Donate Now <i class='bx bx-donate-heart'></i></a>
+            
+            </section>
+            
+
+        <section class="donate">
+        <div class="donate-container">
+            
+            <h3>Select Donation Frequency</h3>
+                <div class="donate-options">
+                        <span>One Time Only</span>
+                        <span>Monthly</span>
+                </div>
+
+                <div class="donate-values">
+                        <span class="value"> £1</span>
+                        <span class="value"> £2</span>
+                        <span class="value"> £5</span>
+                </div>
+                <div class="donate-values">
+                    <span class="value"> £10</span>
+                    <span class="value"> £20</span>
+                    <span class="value"> £50</span>
+                    
+                </div>
+                
+            <div class="input">
+
+                <input type="text" placeholder="Enter amount" style="margin-top:5%;">
+
+                <p> Name</p>
+                <input type="text" placeholder="Enter your name">
+
+                <p> Email Address</p>
+                <input type="text" placeholder="Enter your email address">
+
+            </div>
+            
+            <a href="construction.html" class="donate-btn">Donate Now</a>
+
+            <div class="confirm">
+                <input type="checkbox">
+                <span> By donating, you agree to our <a href="terms-conditions.html">Terms of Service </a> and <a href="privacy_policy.html"> Privacy policy. </a></span>
+            </div>
+        </div>  
+    </section>
+
+    <footer>
+        <table class="content-table" style="margin-top:0%;">
+           
+            <tr style="height:10vh;"> 
+                <td><b>Quick Links </b></td>
+                <td><b>Extra Links</b></td>
+                <td><b>Contact info</b></td>
+                <td><b>Social Media</b></td>
+            </tr>
+           
+            <tbody>
+            <tr>
+                <td><a href="index.html"><i class='bx bx-chevron-right'>Home </i></a>
+                    </td>
+                <td><a href="about_us.html"><i class='bx bx-chevron-right' >About Us</i> </a></td>
+                <td>+44 XXXX XXXX XXX</td>
+                <td><a href="https://www.facebook.com"> <i class='bx bxl-facebook-circle' >Facebook </i></a></td>
+            </tr>
+        
+            <tr>
+                <td style="width:23vw;"><a href="our_campaigns.html"><i class='bx bx-chevron-right'>Our Campaigns</i></a>  </td>
+                <td><a href="help.html"><i class='bx bx-chevron-right' >Need Help? </i></a></td>
+                <td style="width:30vw;"><a>contact@doctorsfoundation.co.uk </a></td>
+                <td><a href="https://www.linkedin.com"><i class='bx bxl-linkedin-square'  >LinkedIn </i></a></td>
+            </tr>
+        
+            <tr>
+                <td><a href="get-involved.html"><i class='bx bx-chevron-right'>Get Involved </i></a></td>
+                <td><a href="privacy_policy.html "><i class='bx bx-chevron-right' >Privacy Policy</i></a></td>
+                <td> 4-6 University Way, E16 2RD</td>
+                <td><a href="https://www.instagram.com/"><i class='bx bxl-instagram' >Instagram</i></a></td>
+            </tr>
+        
+            <tr>
+                <td><a href="donate.html"><i class='bx bx-chevron-right' >Donate </i></a></td>
+                <td style="width:23vw;"><a href="terms-conditions.html"><i class='bx bx-chevron-right' >Terms & Conditions</i></a></td>
+                <td>London, UK</td>
+                <td><a href="https://www.youtube.com"><i class='bx bxl-youtube' >Youtube</i></a></td>
+            </tr>
+        
+            </tbody>
+        </table>
+        </footer>
+    </body>
+</html>
